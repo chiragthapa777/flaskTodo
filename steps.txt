@@ -1,0 +1,22 @@
+pip3 install virtualenv
+virtualenv env OR python -m virtualenv env
+
+To activate:
+-cd env
+-cd Scripts
+-activate.bat
+ OR
+.\env\Scripts\activate.ps1
+
+to deactivate:
+
+-deactivate.bat
+
+python .\app.py
+pip install sqlalchemy
+
+for data base:
+do to env terminal 
+python
+from app import db
+db.create_all()
